@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="CVR100A_U_DSDK_Demo">
+</Property><Property Name="解决方案文件" Value="C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\CVR100A_U_DSDK_Demo.sln">
+</Property><Property Name="用户选项文件" Value="C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\CVR100A_U_DSDK_Demo.suo">
+</Property><Property Name="Date" Value="2014年8月17日">
+</Property><Property Name="Time" Value="21:14">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="CVR100A_U_DSDK_Demo.sln" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\CVR100A_U_DSDK_Demo.sln">
+</Event><Event ErrorLevel="0" Project="" Source="CVR100A_U_DSDK_Demo.suo" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\CVR100A_U_DSDK_Demo.suo">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="CVR100A_U_DSDK_Demo.csproj" Description="项目文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\CVR100A_U_DSDK_Demo.csproj">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="CVR100A_U_DSDK_Demo.csproj.user" Description="项目用户文件成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\CVR100A_U_DSDK_Demo.csproj.user">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="CVRSDK.cs" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\CVRSDK.cs">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="Form1.cs" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="Form1.Designer.cs" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="Program.cs" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="Properties\AssemblyInfo.cs" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="Properties\Resources.Designer.cs" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="Properties\Settings.Designer.cs" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="Properties\Settings.settings" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="CVR.ico" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\CVR.ico">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="Form1.resx" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="Properties\Resources.resx" Description="文件已成功备份为 C:\Users\Asus\Downloads\CVR100二次开发SDK_V3系列_开发说明（华视）\Example\C#\CVR100A_U_DSDK_Demo\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="CVR100A_U_DSDK_Demo" Source="CVR100A_U_DSDK_Demo.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="CVR100A_U_DSDK_Demo.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="CVR100A_U_DSDK_Demo" Source="CVR100A_U_DSDK_Demo.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="CVR100A_U_DSDK_Demo.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="CVR100A_U_DSDK_Demo.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="CVR100A_U_DSDK_Demo" Source="CVR100A_U_DSDK_Demo.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

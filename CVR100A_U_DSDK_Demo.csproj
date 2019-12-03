@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1FF76D4A-6B70-4113-B014-B1AE5422D5CA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CVR100A_U_DSDK_Demo</RootNamespace>
+    <AssemblyName>CVR100A_U_DSDK_Demo</AssemblyName>
+    <ApplicationIcon>CVR.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addExceptionStu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addExceptionStu.Designer.cs">
+      <DependentUpon>addExceptionStu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\DbHelperOleDb.cs" />
+    <Compile Include="App_Code\db_exam.cs" />
+    <Compile Include="App_Code\db_examName.cs" />
+    <Compile Include="App_Code\db_kaochang.cs" />
+    <Compile Include="App_Code\db_students.cs" />
+    <Compile Include="App_Code\db_theExamNo.cs" />
+    <Compile Include="App_Code\db_users.cs" />
+    <Compile Include="App_Code\DESEncrypt.cs" />
+    <Compile Include="App_Code\PubConstant.cs" />
+    <Compile Include="App_Code\publicModel.cs" />
+    <Compile Include="checkExamNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkExamNameForm.Designer.cs">
+      <DependentUpon>checkExamNameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CVRSDK.cs" />
+    <Compile Include="examNameForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="examNameForm.Designer.cs">
+      <DependentUpon>examNameForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="importInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="importInfo.Designer.cs">
+      <DependentUpon>importInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="kaochangForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="kaochangForm.Designer.cs">
+      <DependentUpon>kaochangForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="modifyPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modifyPwd.Designer.cs">
+      <DependentUpon>modifyPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personInfo.Designer.cs">
+      <DependentUpon>personInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personList.Designer.cs">
+      <DependentUpon>personList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="setTheExamNoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setTheExamNoForm.Designer.cs">
+      <DependentUpon>setTheExamNoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="wqd_stuList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wqd_stuList.Designer.cs">
+      <DependentUpon>wqd_stuList.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="addExceptionStu.resx">
+      <DependentUpon>addExceptionStu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkExamNameForm.resx">
+      <DependentUpon>checkExamNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="examNameForm.resx">
+      <DependentUpon>examNameForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="importInfo.resx">
+      <DependentUpon>importInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="kaochangForm.resx">
+      <DependentUpon>kaochangForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modifyPwd.resx">
+      <DependentUpon>modifyPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personInfo.resx">
+      <DependentUpon>personInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personList.resx">
+      <DependentUpon>personList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="setTheExamNoForm.resx">
+      <DependentUpon>setTheExamNoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wqd_stuList.resx">
+      <DependentUpon>wqd_stuList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CVR.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
